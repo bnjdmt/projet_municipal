@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # Frontend React
+  frontend:
+    build:
+      context: ./FRONT/water_management
+      dockerfile: Dockerfile
+    container_name: react-frontend
+    restart: unless-stopped
+    volumes:
+      - ./FRONT/water_management:/usr/src/app
+    ports:
+      - "3000:3000"
+
+  # Backend Symfony
+  backend:
+    build:
+      context: ./water_management
+      dockerfile: Dockerfile
+    container_name: symfony
+    volumes:
+      - ./water_management:/var/www/html
+    ports:
+      - '8000:8000'
+    depends_on:
+      - mongodb
+    environment:
+      - APP_ENV=dev
+      - DATABASE_URL=mongodb://mongodb:27017/symfony_database
+    command: sh -c "composer install && symfony serve"
+
+  # MongoDB
+  mongodb:
+    image: mongo:6.0
+    container_name: mongodb
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
