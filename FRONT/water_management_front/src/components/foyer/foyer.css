@@ -1,0 +1,214 @@
+.selectAddress{
+  margin-top: 5% ;
+  margin-bottom: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+}
+
+.paragrapheFoyer{
+
+  display: flex;
+  background-color: #DDE8EE;
+}
+
+.eau{
+  left: 0px;
+  position: static;
+  width: 350px;
+  
+}
+
+.descriptionFoyer{
+  text-align: left;
+  position: static;
+  right: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+ width: 65%;
+ height: 300px;
+}
+
+ #Conso{
+  color: #00639A;
+  height: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  width: 300px;
+}
+
+.camembert{
+  left: 0px;
+  position: static;
+  width: 300px;
+}
+.alignementConso{
+  height: 300px;
+  width: 500px;
+  margin-left: 5%;
+}
+
+.descriptionCamembert{
+  width: 500px;
+  height: 200px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.ajoutFoyer{
+  display: inline;
+  margin-left: 75%;
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+  color: #00639A;
+  border-color:  #00639A;
+  margin-bottom: 4px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.suiviConso{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 60px;
+  width: 350px;
+  color: #00639A;
+  border-color:  #00639A;
+  margin-top: 20px;
+  margin-bottom: 20px ;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+}
+
+
+.alerte {
+  border: 2px;
+  border: solid;
+  border-color: #014468;
+  border-radius: 10px ;
+  background-color: #DDE8EE;
+  color: #00639A;
+  min-width: 800px;
+  max-width: auto;
+  height: 400px;
+  padding-bottom: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#titreFoyer {
+  font-size: 25px;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.alerteStatut {
+  display: flex;
+  margin-left: 60px;
+}
+
+.ligne {
+  margin-left: 40px;
+  margin-top: -2px;
+  background-color: #00639A;
+  height: 0.5px;
+  width: 30%;
+}
+
+.pointvert {
+  color:rgb(17, 227, 17);
+  margin-right: 10px;
+  font-size: 30px;
+}
+.pointrouge {
+  color:rgb(227, 17, 17);
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+
+.capteur {
+  border: solid;
+  border-color: #014468;
+  border-radius: 10px ;
+  background-color: #DDE8EE;
+  color: #00639A;
+  height: 400px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  margin-top: 30px;
+  min-width: 800px;
+  max-width: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#divBtnAdd {
+  position: absolute;
+  left: 950px;
+  top: 0;
+}
+
+#pageFoyer {
+  position: relative;
+}
+
+.ligneConso{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  height: 15px;
+  width: 500px;
+  margin: 10px 0;
+  
+}
+.ligneConso p{
+  margin-top: -2px;
+  margin-left: 10px;
+}
+.pieceLigne{
+  height: 15px;
+  position: static;
+
+}
+
+.carreOrange {
+
+  background-color:rgb(227, 80, 17);
+  width: 20px;
+  height: 20px;
+  
+}
+
+
+.carreJaune {
+
+  background-color:rgb(227, 216, 17);
+  width: 20px;
+  height: 20px;
+  
+  
+}
+
+.carreBleu {
+
+  background-color:rgb(17, 66, 227);
+  width: 20px;
+  height: 20px;
+  
+}
+.carreVert {
+
+  background-color:rgb(104, 227, 17);
+  width: 20px;
+  height: 20px;
+
+}

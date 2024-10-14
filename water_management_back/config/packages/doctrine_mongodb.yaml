@@ -1,0 +1,14 @@
+doctrine_mongodb:
+    connections:
+        default:
+            server:  mongodb://root:rootpassword@mongo:27017
+    default_database: symfony
+    document_managers:
+        default:
+            connection: default
+            mappings:
+                App\Document:
+                    type: attribute
+                    dir: '%kernel.project_dir%/src/Document'
+                    prefix: 'App\Document'
+                    is_bundle: false

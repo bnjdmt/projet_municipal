@@ -1,0 +1,23 @@
+#dispoEau {
+    text-align: center;
+    background-color: #265d78;
+    color: #ffffff;
+    width: 410px;
+    height: 200px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+#titre {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+}
+
+#goutte {
+    width: 65px;
+    height: 90px;
+    margin-top: 40px;
+}

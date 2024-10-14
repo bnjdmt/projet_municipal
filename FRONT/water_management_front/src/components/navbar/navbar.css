@@ -1,0 +1,25 @@
+#ulNavbar {
+    list-style-type: none;
+    display: flex;
+}
+
+#ulNavbar li {
+    margin: 5px 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #00639a;
+}
+
+#logo {
+    width: 30px;
+}
+
+#lignBlue {
+    background-color: #00639a;
+    height: 2px;
+}

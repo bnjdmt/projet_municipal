@@ -1,0 +1,21 @@
+#conso24h {
+    text-align: center;
+    background-color: #265d78;
+    color: #ffffff;
+    width: 410px;
+    height: 200px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+}
+
+#titre {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#camembert {
+    width: 170px;
+    height: 135px;
+    margin-top: 10px;
+}

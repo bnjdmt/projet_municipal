@@ -1,0 +1,29 @@
+#titre {
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#elements {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+#elements div {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #dde8ee;
+}
+
+#elements p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-top: 210px;
+    text-align: center;
+}

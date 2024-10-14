@@ -1,0 +1,53 @@
+#form {
+    color: #00639a;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: #dde8ee;
+    border: 1px solid #00639a;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    margin-top: 120px;
+}
+
+#title {
+    text-align: center;
+}
+
+#form a, #form label {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+#form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#form a {
+    color: #00639a;
+    margin-top: 10px;
+}
+
+#identifiant, #password {
+    border: 1px solid #00639a;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+    height: 25px;
+}
+
+#submit {
+    background-color: #00639a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 175px;
+    font-size: 20px;
+}
