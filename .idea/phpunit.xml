@@ -4,6 +4,7 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/water_management/tests" />
+        <option value="$PROJECT_DIR$/water_management_back/tests" />
       </list>
     </option>
   </component>
